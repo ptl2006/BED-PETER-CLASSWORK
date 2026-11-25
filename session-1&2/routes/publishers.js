@@ -4,7 +4,7 @@ router.get('/test', (req, res) => {
     res.send('Publisher router is working!');
 });
 
-const sql = require('mssql/msnodesqlv8');
+// const sql = require('mssql/msnodesqlv8');
 const dbConfig = require('../dbConfig');
 
 // GET all publishers
