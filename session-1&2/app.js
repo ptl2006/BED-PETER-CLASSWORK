@@ -7,6 +7,7 @@ const app = express();
 
 app.use(express.json());
 
+// LAB 5 ROUTES
 // Import Publisher routes
 const publisherRoutes = require('./routes/publishers');
 
